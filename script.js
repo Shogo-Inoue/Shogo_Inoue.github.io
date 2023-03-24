@@ -4,7 +4,7 @@ console.log("hello, world");
 
 //映し出す写真のライブラリ
 const picArray = [
-  ["selfIntroduction.png",""],
+  ["picture/selfIntroduction.png",""],
   ["picture/ipsum.png","Ipsum"],
   ["picture/RAV4_2nd.png","RAV4"],
   ["picture/RAV4_3rd.png","RAV4"],
