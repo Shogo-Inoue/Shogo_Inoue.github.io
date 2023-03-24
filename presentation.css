@@ -1,0 +1,61 @@
+.mainFrame {
+  width: 1000px;
+  background-color: aqua;
+  padding: 20px;
+  margin: auto;
+}
+
+.subFrame {
+  display: flex;
+  justify-content: center;
+}
+.photoFrame{
+  background-color: white;
+  /* border-color: black; */
+  display: grid;
+  /* flex-flow: column;
+  justify-content:space-between; */
+  align-items: center;
+  margin: 20px;
+  /* position: relative; */
+  align-content: space-around;
+}
+.vehicleName{
+  position: relative;
+  bottom: 0;
+
+}
+
+.mainPhoto {
+  width: 260px;
+  margin: 20px;
+}
+
+.selfIntroducution {
+  background-color: lightgreen;
+  width: 500px;
+  margin: 20px;
+  padding-left: 20px;
+}
+
+.button1 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.frameBox {
+  /* width: 800px; */
+  background-color: beige;
+  margin: auto;
+}
+.vehicle{
+  margin: 30px;
+}
+
+/* 各写真のサイズと周辺の余白を設定 */
+.photo {
+  width: 150px;
+  padding: 10px;
+}
