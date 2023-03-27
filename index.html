@@ -12,9 +12,13 @@
     <div class="subFrame">
       <!--メイン画像＝＞初期値は自己紹介の写真-->
       <div class=photoFrame>
-        <img id="pic_window" src="picture\selfIntroduction.png" class="mainPhoto" />
+        <div class="photoBox">
+          <img class="mainPhoto" id="pic_window" src="picture\selfIntroduction.png" />
+        </div>
         <div class="vehicleName">
-          <h2><p style="text-align :center"></p></h2>
+          <h2>
+            <p style="text-align :center"></p>
+          </h2>
         </div>
       </div>
       <!--自己紹介-->
@@ -33,12 +37,12 @@
       </div>
     </div>
 
-    <div class="button1">
-      <!--写真をスライドするためのボタン-->
-      <button style="width: 100px" class="botton2" id="start">Start</button>
-      <button style="width: 100px" class="botton2" id="reset">Reset</button>
+    <!--写真をスライドするためのボタン-->
+    <div class="buttonArea">
+      <button class="button" id="start">Start</button>
+      <button class="button" id="reset">Reset</button>
     </div>
-    
+
     <!--担当した車種の写真-->
     <div class="frameBox">
       <div class="vehicle">
@@ -49,8 +53,8 @@
           <img src="picture\RAV4_3rd.png" class="photo" />
           <img src="picture\Vanguard.png" class="photo" />
           <img src="picture\wish_2nd.png" class="photo" />
-          <img src="https://github.com/Shogo-Inoue/Shogo_Inoue.github.io/blob/main/picture/wish_2nd.png?raw=true" class="photo" />
-          <img src="picture\hilux.png" class="photo" />
+          <img src="picture\wish_2nd_MC.png" class="photo" />
+          <img src="picture\hilux.png" class="photo" id= "hilux"/>
           <img src="picture\IS.png" class="photo" />
           <img src="picture\NX_1st.png" class="photo" />
           <img src="picture\NX_2nd.png" class="photo" />
