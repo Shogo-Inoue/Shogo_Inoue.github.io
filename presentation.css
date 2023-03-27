@@ -1,35 +1,46 @@
 .mainFrame {
-  width: 1000px;
+  width: 80%;
   background-color: aqua;
   padding: 20px;
   margin: auto;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 }
 
 .subFrame {
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: center;
 }
-.photoFrame{
+
+.photoFrame {
+  width: 400px;
+  height: 400px;
   background-color: white;
-  /* border-color: black; */
   display: grid;
-  /* flex-flow: column;
-  justify-content:space-between; */
-  align-items: center;
+  align-items: end;
   margin: 20px;
-  /* position: relative; */
-  align-content: space-around;
-}
-.vehicleName{
-  position: relative;
-  bottom: 0;
-
 }
 
+.photoBox {
+  display: flex;
+  justify-content: space-evenly;
+}
 .mainPhoto {
-  width: 260px;
+  width: 80%;
+  height:80%;
   margin: 20px;
+  display: flex;
+  justify-content: space-around;
 }
+.picWindow {
+  width: 260px;
+  margin: auto;
+}
+
+
 
 .selfIntroducution {
   background-color: lightgreen;
@@ -37,21 +48,29 @@
   margin: 20px;
   padding-left: 20px;
 }
-
-.button1 {
-  height: 50px;
+.buttonArea{
   display: flex;
+  align-items: center;
+}
+
+.button{
+  box-sizing: border-box;
+  width:100px;
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
   justify-content: center;
-  margin: auto;
+  margin: 10px;
 }
 
 .frameBox {
-  /* width: 800px; */
-  background-color: beige;
-  margin: auto;
+  width: 80%;
+  padding: 20px;
 }
-.vehicle{
-  margin: 30px;
+
+.vehicle {
+  background-color: beige;
+  padding: 20px;
 }
 
 /* 各写真のサイズと周辺の余白を設定 */
