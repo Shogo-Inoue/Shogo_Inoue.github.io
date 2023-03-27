@@ -9,7 +9,7 @@ const picArray = [
   ["picture/RAV4_2nd.png", "RAV4"],
   ["picture/RAV4_3rd.png", "RAV4"],
   ["picture/Vanguard.png", "Vanguard"],
-  ["picture/wish_2nd.png", "Wish"],
+  ["https://github.com/Shogo-Inoue/Shogo_Inoue.github.io/blob/main/picture/wish_2nd_mc.png?raw=true", "Wish"],
   ["picture/wish_2nd_MC.png", "Wish"],
   ["picture/hilux.png", "Hilux(IMV)"],
   ["picture/IS.png", "IS"],
